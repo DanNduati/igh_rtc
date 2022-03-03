@@ -1,6 +1,6 @@
 # Igh system RTC HAL driver
 ## 
-The module should has the following public APIs
+The module has the following public APIs:
 module name igh_time
 ```bash
 void rtc_init(void); //initializes the rtc module
@@ -67,5 +67,5 @@ Unix epoch time: 1646306790
 Is the time valid: Yes!
 ```
 
-ToDo
+## ToDo
 - [ ] Add unit tests sigh...
