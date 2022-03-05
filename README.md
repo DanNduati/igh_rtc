@@ -1,6 +1,5 @@
 # Igh system RTC HAL driver
-## 
-The module has the following public APIs:
+The module have the following public APIs:
 module name igh_time
 ```bash
 void rtc_init(void); //initializes the rtc module
@@ -14,7 +13,7 @@ DateTime igh_datetime(void);//returns a DateTime object of the current time
 ```bash 
 $ make flash
 ```
-This will build the firmware and put the device i dfu mode and flash the firmware binary ontu the device via USB.
+This will build the firmware and put the device in dfu mode ready to be flashed with the firmware binary via usb.
 ### Expected output
 ```bash
 daniel@dan:~/Desktop/synnefa/firmware/rtc_test$ make flash
