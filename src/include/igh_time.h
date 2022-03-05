@@ -10,7 +10,7 @@
 #include "RTClib.h"
 
 // Public APIs
-void rtc_init(void);
+void igh_time_init(void);
 boolean igh_time_is_valid(void);
 uint32_t igh_time_now(void);
 boolean igh_time_set(uint32_t unix_time);

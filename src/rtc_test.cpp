@@ -13,7 +13,7 @@ char daysOfTheWeek[7][12] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursd
 void setup()
 {
   Serial.begin(9600);
-  rtc_init();
+  igh_time_init();
 }
 void loop()
 {

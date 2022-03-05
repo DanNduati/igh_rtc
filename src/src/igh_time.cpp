@@ -11,7 +11,7 @@
 uint32_t SECOND_FROM_1970_TO_2021 = 1609459200; // will be used to validate time
 RTC_PCF8523 rtc;
 
-void rtc_init(void)
+void igh_time_init(void)
 {
     if (!rtc.begin())
     {
