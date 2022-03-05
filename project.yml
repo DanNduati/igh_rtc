@@ -76,6 +76,12 @@
     :html_medium_threshold: 75
     :html_high_threshold: 90
 
+:tools:
+  :test_compiler:
+    :executable: arm-none-eabi-g++
+    :name: 'particle compiler'
+    :arguments:
+      # Todo -> Look through the output of particle local builds with gcc-arm and try and replicate that
 #:tools:
 # Ceedling defaults to using gcc for compiling, linking, etc.
 # As [:tools] is blank, gcc will be used (so long as it's in your system path)
