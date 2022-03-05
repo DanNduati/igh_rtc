@@ -2,7 +2,7 @@
 The module have the following public APIs:
 module name igh_time
 ```bash
-void rtc_init(void); //initializes the rtc module
+void igh_time_init(void); //initializes the rtc module
 bool igh_time_is_valid( void ); // returns true if current time is after January 1st 2021
 uint32_t igh_time_now( void ); // returns the current unix time
 bool igh_time_set( uint32_t unix_time ); // sets the current RTC time and returns true if 
