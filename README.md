@@ -1,5 +1,5 @@
 # Igh system RTC HAL driver
-The module have the following public APIs:
+The module should have the following public APIs:
 module name igh_time
 ```bash
 void igh_time_init(void); //initializes the rtc module
