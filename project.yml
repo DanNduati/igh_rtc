@@ -27,7 +27,8 @@
 :environment:
 
 :extension:
-  :executable: .out
+  :source: .cpp
+  #:executable: .out
 
 :paths:
   :test:
