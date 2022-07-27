@@ -1,6 +1,7 @@
 # Igh system RTC HAL driver
-The module have the following public APIs:
-module name igh_time
+Module name: `igh_time`
+
+The module has the following public APIs:
 ```bash
 void igh_time_init(void); //initializes the rtc module
 bool igh_time_is_valid( void ); // returns true if current time is after January 1st 2021
